@@ -1,7 +1,6 @@
 //导入 io 相关的模块
 // const fs = require('fs')
 import java.io.*;
-
 /**
  * 可读流 和 可写
  */
