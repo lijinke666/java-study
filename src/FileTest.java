@@ -11,7 +11,7 @@ public class FileTest {
             FileOutputStream fop = new FileOutputStream(file);
             OutputStreamWriter writer = new OutputStreamWriter(fop,"UTF-8");
 
-            writer.append("test");
+            writer.append("module");
             writer.close();
             fop.close();
         } catch (IOException e) {

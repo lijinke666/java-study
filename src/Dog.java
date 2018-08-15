@@ -24,6 +24,6 @@ public class Dog {
         System.out.print("性别:" + sex);
     }
     public String hi(){
-        return "test";
+        return "module";
     }
 }
