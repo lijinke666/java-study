@@ -29,5 +29,40 @@ class Boy extends People{
     }
 }
 
+/**
+ * 多继承
+ */
+
+interface React {
+    public void setState();
+    public void componentDidMount();
+}
+
+interface  Vue {
+    public void mouted();
+}
+
+class Ljk implements React,Vue {
+    public static void main (String[] args){
+        Ljk my = new Ljk();
+        my.componentDidMount();
+    }
+
+    @Override
+    public void componentDidMount() {
+        System.out.print("componentDidMount()");
+    }
+
+    @Override
+    public void mouted() {
+
+    }
+
+    @Override
+    public void setState() {
+
+    }
+}
+
 
 
