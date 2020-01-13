@@ -3,7 +3,7 @@ import java.util.*;
 public class ListArray {
     public static void main (String[] args){
         //<String> 表示泛形 告诉 数组 value 是什么 类型
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<>();
 
         //相当于 js 的  [].push(xxx)
 
