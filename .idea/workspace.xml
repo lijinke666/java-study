@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ffefe1-466d-4346-8703-80dd9383949a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyDecortar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,7 +28,7 @@
         <counts>
           <entry key="class" value="10" />
           <entry key="iml" value="1" />
-          <entry key="java" value="32" />
+          <entry key="java" value="34" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -37,21 +36,21 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="32" />
+          <entry key="JAVA" value="34" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="4373" />
+          <entry key="java" value="4445" />
           <entry key="md" value="121" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4373" />
+          <entry key="JAVA" value="4445" />
           <entry key="Markdown" value="121" />
           <entry key="PLAIN_TEXT" value="29" />
         </counts>
@@ -101,11 +100,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MyDecortar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            <state relative-caret-position="234">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Generic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding>
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ListArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -115,9 +136,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,11 +162,12 @@
         <option value="$PROJECT_DIR$/src/test/Fn.java" />
         <option value="$PROJECT_DIR$/src/module/Fn.java" />
         <option value="$PROJECT_DIR$/src/MyPackage.java" />
-        <option value="$PROJECT_DIR$/src/ListArray.java" />
         <option value="$PROJECT_DIR$/src/Hello.java" />
         <option value="$PROJECT_DIR$/src/DecoratorTest.java" />
         <option value="$PROJECT_DIR$/src/Decorator.java" />
         <option value="$PROJECT_DIR$/src/MyDecortar.java" />
+        <option value="$PROJECT_DIR$/src/ListArray.java" />
+        <option value="$PROJECT_DIR$/src/Generic.java" />
       </list>
     </option>
   </component>
@@ -180,6 +202,12 @@
               <item name="java-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -192,7 +220,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579083493512" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579084878984" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -253,7 +281,7 @@
       <workItem from="1534323404639" duration="2665000" />
       <workItem from="1534475316966" duration="9000" />
       <workItem from="1578897150315" duration="1132000" />
-      <workItem from="1579082958895" duration="572000" />
+      <workItem from="1579082958895" duration="1576000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 增加类练习">
       <created>1578897290966</created>
@@ -266,7 +294,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26536000" />
+    <option name="totallyTimeSpent" value="27540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -290,14 +318,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32742155" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32738853" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32738853" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32867134" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -443,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ListArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/java-study/Ljk.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -504,8 +525,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MyDecortar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="234">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ListArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Generic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
