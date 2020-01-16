@@ -14,10 +14,17 @@ public class ListArray {
         System.out.println(list);   // [李,金,珂]
         System.out.println(list.size());    // 3 => js list.length
 
-//        for (int i=0; i<list.size(); i++){
-//            System.out.print(list[i]);
-//        }
+        // 普通遍历
+        for (int i=0; i<list.size(); i++){
+            System.out.print(list.get(i));
+        }
 
+        // 迭代器 速度更快
+        for (Iterator<String> iterator = list.iterator(); iterator.hasNext(); ) {
+            System.out.println(iterator.next());
+        }
+
+        // for each 本身支持 迭代器 所以可以简写为
         for( String str : list ){
             System.out.println(str);
         }
