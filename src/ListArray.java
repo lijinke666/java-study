@@ -28,5 +28,15 @@ public class ListArray {
         for( String str : list ){
             System.out.println(str);
         }
+
+        // List => Array
+        String[] array = list.toArray(new String[list.size()]);
+
+        // 这种函数式写法要报错?
+//        String[] array2 = list.toArray(String[]::new);
+
+        // Array => List
+        Integer[] arr = {1,2,3};
+//        List<Integer> list2 = List.of(arr);
     }
 }
