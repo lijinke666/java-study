@@ -13,5 +13,15 @@ public class Collection {
         Map<String, String> map = new HashMap<>();
 
         map.put("key","value");
+
+        // 队列
+        Queue<String> q = new LinkedList<>();
+
+        // 入队
+        q.offer("测试 1");
+        q.offer("测试 2");
+
+        // 出队
+        q.poll();
     }
 }
