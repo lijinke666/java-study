@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85ffefe1-466d-4346-8703-80dd9383949a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/File.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Collection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +28,7 @@
         <counts>
           <entry key="class" value="10" />
           <entry key="iml" value="1" />
-          <entry key="java" value="40" />
+          <entry key="java" value="42" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
@@ -36,21 +36,21 @@
         <counts>
           <entry key="CLASS" value="10" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="42" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="5210" />
+          <entry key="java" value="5372" />
           <entry key="md" value="121" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5210" />
+          <entry key="JAVA" value="5372" />
           <entry key="Markdown" value="121" />
           <entry key="PLAIN_TEXT" value="29" />
         </counts>
@@ -62,27 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Decorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="docComment;class#Decorator#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MyDecortar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Generic.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -136,11 +115,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="474">
               <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/File.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <folding>
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +194,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/Dog.java" />
         <option value="$PROJECT_DIR$/src/Modifier.java" />
-        <option value="$PROJECT_DIR$/src/File.java" />
         <option value="$PROJECT_DIR$/src/FileTest.java" />
         <option value="$PROJECT_DIR$/src/FileReader.java" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -209,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/Generic.java" />
         <option value="$PROJECT_DIR$/src/ListArray.java" />
         <option value="$PROJECT_DIR$/src/Collection.java" />
+        <option value="$PROJECT_DIR$/src/File.java" />
       </list>
     </option>
   </component>
@@ -255,7 +259,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579517615504" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579518110664" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -289,8 +293,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="ListArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListArray" />
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileDemo" />
       <module name="java-study" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -298,7 +302,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ListArray" />
+        <item itemvalue="Application.FileDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +320,7 @@
       <workItem from="1534323404639" duration="2665000" />
       <workItem from="1534475316966" duration="9000" />
       <workItem from="1578897150315" duration="1132000" />
-      <workItem from="1579082958895" duration="5355000" />
+      <workItem from="1579082958895" duration="5738000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 增加类练习">
       <created>1578897290966</created>
@@ -329,7 +333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31319000" />
+    <option name="totallyTimeSpent" value="31702000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,14 +357,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32866243" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32742155" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49926254" visible="true" weight="0.30963856" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49926254" weight="0.30963856" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007375" side_tool="true" weight="0.32738853" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49926254" weight="0.32866243" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -454,17 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -627,6 +620,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
