@@ -9,6 +9,7 @@ class FileDemo {
         System.out.println(File.separator); // => /
     }
     public void readFile() throws IOException {
+        // 文件输入流
         try (InputStream input = new FileInputStream("./Hello.class")) {
             int n;
             while ((n = input.read()) != -1) {
