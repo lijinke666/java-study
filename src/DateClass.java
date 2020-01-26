@@ -12,5 +12,11 @@ public class DateClass {
 
         // getTime 将 calendar 转成 date 类型
         System.out.println( new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(c.getTime()));
+
+        // 时区
+        TimeZone tz = TimeZone.getDefault();
+        TimeZone tz2 = TimeZone.getTimeZone("GMT+09:00");
+        System.out.println(tz.getID());  // Asia/Shanghai
+        System.out.println(tz2.getID());  // GMT+09:00
     }
 }
